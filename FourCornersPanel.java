@@ -8,7 +8,7 @@ import java.awt.image.BufferedImage;
 
 public class FourCornersPanel {
 	private BufferedImage a,b,c,d,f,x,y,z;
-	private BufferedImage choice;
+	private BufferedImage choice,choice1,choice2,choice3;
 	
 	public FirstMouseListenerPanel() {
 		try {
@@ -26,6 +26,9 @@ public class FourCornersPanel {
 			return;
 		}
 		choice = a;
+		choice1=b;
+		choice2=c
+			choice3=d;
 		addMouseListener(this);
 	}
 	/*public void addNotify() {

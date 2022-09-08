@@ -1,14 +1,14 @@
 import javax.swing.JFrame;
 
-public class FourCorners {
-	private static final int WIDTH=1600;
-	private static final int HEIGHT = 960;
+public class FourCorners extends JFrame{
+	private static final int WIDTH=800;
+	private static final int HEIGHT = 800;
 
 	public FourCorners(String title) {
 		super(title);
 		setSize(WIDTH,HEIGHT);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		add(new FourCornersPanel);
+		add(new FourCornersPanel());
 		setVisible(true);
 	}
 }
